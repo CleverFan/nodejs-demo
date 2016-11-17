@@ -10,9 +10,8 @@
 > - clone the code 
 > - cd upload-demo
 > - npm install 
-> - modify ./views/index.html (url:'upload-modify') to (url:'upload')
 > - npm start 
-> - visit localhost:8081
+> - visit localhost:3000
 > - the file will upload into /public/uploads
 
 ## tip
