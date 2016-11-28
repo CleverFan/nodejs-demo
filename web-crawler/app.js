@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
-var getIp = require('./util/getIp')();
+require('./util/addCsdn')();
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
